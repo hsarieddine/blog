@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Record Tag helper for content_tag_for and div_for
+gem 'record_tag_helper', '~> 1.0'
 # Annotate models
 gem 'annotate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
